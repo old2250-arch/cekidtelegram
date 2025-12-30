@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/*.js": {
+      "maxDuration": 60
+    }
+  },
+  "env": {
+    "NEXT_TELEMETRY_DISABLED": "1"
+  },
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs"
+}
